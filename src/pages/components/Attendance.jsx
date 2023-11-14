@@ -5,7 +5,7 @@ import { ImCheckboxUnchecked } from "react-icons/im";
 
 const DayWiseAttendance = ({ data, day }) => {
   return (
-    <div className="flex text-center p-2 flex-col border border-orange-500 min-w-[200px]">
+    <div className="flex text-center p-2 flex-col border border-orange-500 min-w-[150px]">
       <h1 className="uppercase text-xl font-semibold text-black">{day}</h1>
       <h4 className="font-bold text-orange-500">{data?.date}</h4>
       <h4 className="text-3xl mx-auto">
@@ -30,7 +30,6 @@ const Attendance = () => {
   const fetchData = useStudentData();
   const attendance = fetchData && fetchData.ATTENDANCE;
   const days = attendance ? Object.keys(attendance) : [];
-  // console.log("Attedance>>>>>>>>", days);
   return (
     <div>
       <h1 className="text-2xl my-4 font-bold text-orange-500 text-center">
