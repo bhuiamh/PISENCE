@@ -4,7 +4,6 @@ import useStudentData from "../../providers/useStudentData";
 const Academic = () => {
   const fetchData = useStudentData();
   const homework = fetchData ? fetchData["homework"] : {};
-  console.log("Homework", homework);
   return (
     <div>
       <h1 className="text-2xl my-4 font-bold text-orange-500 text-center">
