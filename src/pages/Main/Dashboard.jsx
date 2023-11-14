@@ -20,28 +20,28 @@ const Dashboard = () => {
     <>
       <Link
         onClick={toggleMenu}
-        to="/"
+        to="/summary"
         className="border-transparent mb-2 text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         <AiFillHome className="mr-2" /> Summery Dashboard
       </Link>
       <Link
         onClick={toggleMenu}
-        to="/"
+        to="/attendance"
         className="border-transparent mb-2 text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         <BsUiChecksGrid className="mr-2" /> Attendance Tracking
       </Link>
       <Link
         onClick={toggleMenu}
-        to="/"
+        to="/behavior"
         className="border-transparent mb-2 text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         <BiSolidCctv className="mr-2" /> Behavioral Analytics
       </Link>
       <Link
         onClick={toggleMenu}
-        to="/"
+        to="/academic"
         className="border-transparent mb-2 text-orange-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-base font-medium"
       >
         <FaTachometerAlt className="mr-2" /> Performance Tracking
